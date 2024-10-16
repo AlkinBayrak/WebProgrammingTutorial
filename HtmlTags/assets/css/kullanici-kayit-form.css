@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    
+}
+.container
+{
+    
+    /* border: 7px groove #15B392; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    /* padding: 5px; içinde yazılan içeriklerin borderdan uzaklaştırır */
+    background-color: #A0C1B8;
+    
+}
+.header
+{
+    /* border: 1px solid #ff0000; */
+    height: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    /* background-color: #A0C1B8; */
+}
+.header h1{
+    color: #000000;
+    /* background-color: #dde9f3; */
+}
+.navigation
+{
+    /* border: 1px solid #04e03b; */
+    height: 10%;
+    box-sizing: border-box;
+    background-color: #32485C;
+}
+.main
+{
+    /* border: 1px solid #0011ff; */
+    height: 70%;
+    background-color: #AED9DA;
+    box-sizing: border-box;
+}
+.left-side
+{
+    /* border: 1px solid #ff0156; */
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #3DDAD8;
+    
+}
+.center-side
+{
+    /* border: 1px solid #eb00f3; */
+    display: inline-block;
+    width: 79%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #2A93D5;
+    
+}
+.footer
+{
+    /* border: 1px solid #fcce00; */
+    position: absolute; /*absolute akıştan koparıyor*/
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    bottom: 0px;
+    background-color: #135589;
+}
