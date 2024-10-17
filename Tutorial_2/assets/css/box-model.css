@@ -1,0 +1,29 @@
+ /*Tag seçici*/ /* Inline elemanları ile block elemanları arasında ki fark box elemanlar içerisinde bulunduğu eleman sayısından bağımsız
+ tüm alana etki eder Span gibi inline elemanlar ise içine gelen contenctin boyutuna göre şekillenir */
+div
+{
+    background-color: cadetblue !important;
+    width: 200px;
+    height: 200px;
+    
+}
+ /*CSS sınıfı*/
+.box
+{
+    border : 10px solid black;
+    padding: 10px;
+    width: 300px;
+}
+/* Özellik seçici */
+div[name ="kutu"]
+{
+    box-sizing: border-box;
+    background-color: chocolate !important;
+}      
+ /*Id seçici*/
+#box1
+{
+    margin: 10px;
+    padding: 25px;
+}
+
